@@ -1,0 +1,467 @@
+
+    
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Portfolio de Divine Dalen, étudiant en cycle préparatoire informatique à HESTIM Casablanca, intéressé par la cybersécurité et l'intelligence artificielle.">
+
+  <meta name="theme-color" content="#080b12">
+  <title>Divine Dalen | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="header">
+    <nav class="navbar container" aria-label="Navigation principale">
+      <a href="#accueil" class="logo">
+        <span class="logo-mark">D</span>
+        <span>DIVINE<span class="accent">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Ouvrir le menu" aria-expanded="false"
+        aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#parcours" class="nav-link">Parcours</a></li>
+        <li><a href="#contact" class="nav-link nav-contact">Me contacter ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="status">
+            <span class="status-dot"></span>
+            Étudiant en informatique · Casablanca, Maroc
+          </div>
+
+          <p class="eyebrow">BONJOUR, JE SUIS</p>
+
+          <h1>Divine <span class="gradient-text">Dalen.</span></h1>
+
+          <h2 class="hero-subtitle">
+            Je construis mon avenir dans
+            <span id="typedText" class="accent">l'informatique.</span>
+            <span class="cursor">|</span>
+          </h2>
+
+          <p class="hero-description">
+            Étudiant en première année du cycle préparatoire informatique
+            à HESTIM School, je m'intéresse au développement logiciel,
+            à l'intelligence artificielle et à la cybersécurité.
+            J'apprends, j'expérimente et je transforme mes idées en projets.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projets" class="btn btn-primary">
+              Découvrir mes projets <span>↗</span>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              Parlons ensemble
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/divine-dalen-a871a2444/"
+               target="_blank" rel="noopener noreferrer">
+              LinkedIn ↗
+            </a>
+            <a href="https://github.com/"
+               target="_blank" rel="noopener noreferrer">
+              GitHub ↗
+            </a>
+            <span class="social-separator">/</span>
+            <span class="muted">Toujours en apprentissage</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="code-card">
+            <div class="code-header">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span>divine.js</span>
+              <span class="code-language">JavaScript</span>
+            </div>
+
+            <div class="code-body">
+              <p><span class="line-number">01</span>
+                <span class="purple">const</span> developer = {</p>
+              <p><span class="line-number">02</span>
+                &nbsp; name: <span class="green">"Divine Dalen"</span>,</p>
+              <p><span class="line-number">03</span>
+                &nbsp; school: <span class="green">"HESTIM"</span>,</p>
+              <p><span class="line-number">04</span>
+                &nbsp; field: <span class="green">"Computer Science"</span>,</p>
+              <p><span class="line-number">05</span>
+                &nbsp; interests: [</p>
+              <p><span class="line-number">06</span>
+                &nbsp;&nbsp; <span class="orange">"Cybersecurity"</span>,</p>
+              <p><span class="line-number">07</span>
+                &nbsp;&nbsp; <span class="orange">"Artificial Intelligence"</span></p>
+              <p><span class="line-number">08</span>
+                &nbsp; ],</p>
+              <p><span class="line-number">09</span>
+                &nbsp; learning: <span class="purple">true</span></p>
+              <p><span class="line-number">10</span> };</p>
+              <p class="code-comment">// The journey has just begun.</p>
+            </div>
+
+            <div class="code-footer">
+              <span><span class="status-dot"></span> Available to learn</span>
+              <span>UTF-8</span>
+            </div>
+          </div>
+
+          <div class="floating-tag tag-top">⌘ Problem solving</div>
+          <div class="floating-tag tag-bottom">✦ Build. Learn. Improve.</div>
+        </div>
+      </div>
+
+      <a href="#apropos" class="scroll-cue">
+        <span class="scroll-line"></span> DÉFILER POUR EXPLORER
+      </a>
+    </section>
+
+    <!-- A PROPOS -->
+    <section class="section section-alt" id="apropos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / À PROPOS</p>
+          <h2>Curieux aujourd'hui.<br><span class="gradient-text">Ingénieur demain.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Je suis étudiant en première année du cycle préparatoire
+              informatique à <strong>HESTIM School, Casablanca</strong>.
+              Mon parcours me permet de construire des bases solides en
+              informatique, en logique et en résolution de problèmes.
+            </p>
+            <p>
+              Je m'intéresse particulièrement à la cybersécurité et à
+              l'intelligence artificielle. Je souhaite comprendre comment
+              les systèmes fonctionnent, comment les protéger et comment
+              développer des solutions utiles.
+            </p>
+            <p>
+              Mon objectif est de progresser à travers des projets concrets,
+              le travail personnel et l'apprentissage continu.
+            </p>
+
+            <a class="text-link" href="#contact">
+              Entrer en contact <span>↗</span>
+            </a>
+          </div>
+
+          <div class="about-cards reveal">
+            <article class="info-card">
+              <span class="card-icon">⌘</span>
+              <h3>Développement</h3>
+              <p>Apprendre à concevoir des applications et des sites web.</p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-icon">◈</span>
+              <h3>Cybersécurité</h3>
+              <p>Comprendre la sécurité des systèmes et des réseaux.</p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-icon">✳</span>
+              <h3>Intelligence artificielle</h3>
+              <p>Découvrir les algorithmes et les applications de l'IA.</p>
+            </article>
+
+            <article class="info-card">
+              <span class="card-icon">↗</span>
+              <h3>Progression</h3>
+              <p>Développer mes capacités par la pratique et la curiosité.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section class="section" id="competences">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / COMPÉTENCES</p>
+          <h2>Les outils que <span class="gradient-text">j'explore.</span></h2>
+          <p class="section-intro">
+            Voici les technologies que j'étudie ou que je souhaite approfondir.
+            Cette liste est à adapter à ton niveau réel.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-card-header">
+              <span class="skill-icon">&lt;/&gt;</span>
+              <span class="skill-number">01</span>
+            </div>
+            <h3>Développement web</h3>
+            <p>Créer des interfaces web structurées et interactives.</p>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-header">
+              <span class="skill-icon">⌘</span>
+              <span class="skill-number">02</span>
+            </div>
+            <h3>Programmation</h3>
+            <p>Travailler la logique, les algorithmes et la résolution de problèmes.</p>
+            <div class="tags">
+              <span>Algorithmique</span><span>C / C++</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-header">
+              <span class="skill-icon">◇</span>
+              <span class="skill-number">03</span>
+            </div>
+            <h3>Réseaux & sécurité</h3>
+            <p>Étudier les réseaux informatiques et les principes de sécurité.</p>
+            <div class="tags">
+              <span>Réseaux</span><span>TCP/IP</span><span>Cybersécurité</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card-header">
+              <span class="skill-icon">✳</span>
+              <span class="skill-number">04</span>
+            </div>
+            <h3>Outils & apprentissage</h3>
+            <p>Organiser le code, suivre les versions et pratiquer régulièrement.</p>
+            <div class="tags">
+              <span>Git</span><span>GitHub</span><span>VS Code</span>
+            </div>
+          </article>
+        </div>
+
+        <p class="skills-note">
+          * Les éléments affichés correspondent à des domaines d'apprentissage,
+          pas nécessairement à une maîtrise professionnelle.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section section-alt" id="projets">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">03 / PROJETS</p>
+          <h2>Des idées qui prennent <span class="gradient-text">forme.</span></h2>
+          <p class="section-intro">
+            Présente ici tes réalisations scolaires et personnelles.
+            Remplace les exemples par tes vrais projets au fur et à mesure.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-one">
+              <span class="project-label">01 — WEB</span>
+              <div class="mini-window">
+                <div class="mini-window-top"><i></i><i></i><i></i></div>
+                <div class="mini-lines">
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+              <span class="project-symbol">&lt;/&gt;</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>Développement web</span><span>01</span></div>
+              <h3>Portfolio personnel</h3>
+              <p>
+                Un site responsive pour présenter mon parcours,
+                mes compétences et mes projets.
+              </p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="project-link" href="https://github.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Voir le code sur GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-two">
+              <span class="project-label">02 — RÉSEAUX</span>
+              <div class="network-visual" aria-hidden="true">
+                <span class="node node-a">PC</span>
+                <span class="node node-b">SW</span>
+                <span class="node node-c">PC</span>
+                <span class="node node-d">SRV</span>
+                <svg viewBox="0 0 300 160" aria-hidden="true">
+                  <path d="M40 35 L150 80 L260 35 M150 80 L150 135"/>
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>Réseaux informatiques</span><span>02</span></div>
+              <h3>Laboratoire réseau</h3>
+              <p>
+                Un projet d'apprentissage pour documenter les notions
+                de réseau, d'adressage IP et de segmentation.
+              </p>
+              <div class="tags"><span>TCP/IP</span><span>Adressage IP</span></div>
+              <a class="project-link" href="#contact">
+                En savoir plus ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-three">
+              <span class="project-label">03 — PROGRAMMATION</span>
+              <div class="terminal">
+                <p><span>$</span> learning_mode --start</p>
+                <p class="terminal-output">Building skills...</p>
+                <p><span>✓</span> Practice every day</p>
+                <p class="terminal-cursor">_</p>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-meta"><span>Algorithmique</span><span>03</span></div>
+              <h3>Collection d'algorithmes</h3>
+              <p>
+                Des exercices de programmation pour progresser
+                en logique et apprendre à résoudre des problèmes.
+              </p>
+              <div class="tags"><span>C / C++</span><span>Algorithmique</span></div>
+              <a class="project-link" href="https://github.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Explorer GitHub ↗
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section class="section" id="parcours">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / PARCOURS</p>
+          <h2>Mon parcours <span class="gradient-text">académique.</span></h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">ACTUELLEMENT</div>
+            <div class="timeline-content">
+              <span class="timeline-badge">En cours</span>
+              <h3>Cycle préparatoire en informatique</h3>
+              <p class="timeline-place">HESTIM School · Casablanca, Maroc</p>
+              <p>
+                Première année : développement des bases scientifiques,
+                informatiques et algorithmiques, avec un intérêt particulier
+                pour la cybersécurité et l'intelligence artificielle.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <div class="timeline-date">PROCHAINE ÉTAPE</div>
+            <div class="timeline-content">
+              <h3>Approfondir mes compétences</h3>
+              <p class="timeline-place">Objectif personnel</p>
+              <p>
+                Réaliser des projets plus avancés, renforcer mes bases
+                en programmation et explorer progressivement les métiers
+                de la cybersécurité et de l'IA.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">05 / CONTACT</p>
+          <h2>Une idée, un projet ?<br><span class="gradient-text">Parlons-en.</span></h2>
+          <p class="contact-description">
+            Je suis ouvert aux échanges autour de l'informatique,
+            aux projets étudiants et aux opportunités d'apprentissage.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn btn-primary"
+               href="https://www.linkedin.com/in/divine-dalen-a871a2444/"
+               target="_blank" rel="noopener noreferrer">
+              Me retrouver sur LinkedIn ↗
+            </a>
+            <a class="btn btn-secondary"
+               href="https://github.com/"
+               target="_blank" rel="noopener noreferrer">
+              Mon GitHub ↗
+            </a>
+          </div>
+
+          <p class="contact-note">
+            Pour me contacter directement, ajoute ton adresse e-mail
+            professionnelle ou un formulaire relié à un service d'envoi.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#accueil" class="logo">
+        <span class="logo-mark">D</span>
+        <span>DIVINE<span class="accent">.</span></span>
+      </a>
+      <p>Conçu avec curiosité et beaucoup de code.</p>
+      <p>© <span id="currentYear"></span> Divine Dalen</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top"
+    aria-label="Retour en haut">↑</button>
+</body>
+</html>
+
+    
+</body>
+</html>
